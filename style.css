@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(195, 216, 255);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(3, 3, 37);
+    height: 60px;
+    width: 100%;
+}
+
+
+footer{
+    background-color: rgb(3, 3, 37);
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top-left-radius: 50px;
+}
+
+
+.icons {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    padding: 9px 20px 6px 0px;
+    align-items: center;
+}
+
+
+.facebook {
+    background: url(facebook\ \(2\).png);
+    background-color: white;
+    border-radius: 6px;
+    height: 30px;
+    width: 30px;
+}
+
+
+.instagram {
+    background: url(instagram.png);
+    background-color: white;
+    border-radius: 8px;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    margin-top: 2px;
+}
+
+
+.github {
+
+    background: url(github-sign.png);
+    background-color: white;
+    border-radius: 7px;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+
+}
+
+
+p {
+    padding: 5px 30px 0 0;
+}
+
+
+#headerH1 {
+    
+    color: #fff;
+    padding: 30px;
+    font-weight: 700;
+    font-size: larger;
+}
+
+
+#headerP2 {
+    
+    color: #fff;
+    border: 0;
+    padding: 0 30px 0 10px;
+    font-size: small;
+}
+
+
+.nasa {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.nasaIcon {
+    background: url(icons8-nasa-32.png);
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+}
+
+
+h3{
+    color: cornsilk;
+    background-color: rgba(245, 245, 245, 0.425);
+    font-size: small;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px 20px 15px 20px;
+}
+
+
+.box {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.dateClass {
+    border-radius: 20px;
+    width: 180px;
+    height: 30px;
+    padding: 5px 10px 0px 10px;
+    border-style: none;
+    font-weight: 500;
+    outline: none;
+}
+
+
+label {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+.buttonClass {
+    background: url(pexels-min-an-813269\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid 2px rgba(255, 255, 255, 0.233);
+    font-weight: 600;
+    color:  rgba(255, 255, 255, 0.466);
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: 500ms;
+    outline: none;
+}
+
+
+.buttonClass:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+
+#container1 {
+
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    width: 450px;
+
+}
+
+
+#container2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+
+img {
+    display: none;
+    width: 640px;
+    height: 480px;
+}
+
+
+.content {
+    margin-bottom: 30px;
+}
+
+
+iframe {
+    display: none;
+    width: 640px;
+    height: 480px;
+}
