@@ -22,6 +22,9 @@ function go() {
     var selectDate = document.querySelector('label');
     box.style.marginTop = '20px';
     box.style.transition = '1000ms';
+    var marginOut = document.querySelector('.box');
+    marginOut.style.marginBottom = '50px';
+    marginOut.style.transition = '1s';
 }
 
 
@@ -40,13 +43,13 @@ function getPic(n) {
     if (tipomedia === "\"image\"") {
         $("iframe").css("display", "none");
         $("img").attr("src", linkimg);
-        $("img").css("display", "block");
+        $("img").css("display", "initial");
     }
     else {
         $("img").css("display", "none");
         $("iframe").attr("src", linkimg);
         $("iframe").css("width", "640px");
         $("iframe").css("height", "480px");
-        $("iframe").css("display", "block");
+        $("iframe").css("display", "initial");
     }
 }
